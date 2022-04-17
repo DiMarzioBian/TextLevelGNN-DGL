@@ -38,7 +38,7 @@ Graph: trainable co-occurrence graph
 
 | R8    | default | no pretrained | mean reduction | pmi graph |
 |-------|---------|---------------|----------------|-----------|
-| Test  | 94.24%  | 94.24%        | 92.72%         | 53.97%    |
+| Test  | 94.24%  | 94.24%        | 93.42%         | 78.48%    |
 
 ---
 ### ~~Ablation: n_degree on R8~~
