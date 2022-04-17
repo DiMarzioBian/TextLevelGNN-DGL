@@ -5,13 +5,13 @@ import copy
 import numpy as np
 import random
 import torch
-from TextLevelGCN.model import TextLevelGCN
+from TextLevelGNN.model import TextLevelGCN
 from dataloader import get_dataloader
 from epoch import train, evaluate
 
 
 def main():
-    parser = argparse.ArgumentParser(description='TextLevelGCN project')
+    parser = argparse.ArgumentParser(description='TextLevelGNN project')
 
     # experiment setting
     parser.add_argument('--dataset', type=str, default='r8', choices=['r8', 'r52', 'ohsumed'], help='used dataset')
