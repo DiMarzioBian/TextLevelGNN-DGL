@@ -17,7 +17,7 @@ def main():
     parser.add_argument('--dataset', type=str, default='r8', choices=['r8', 'r52', 'ohsumed'], help='used dataset')
     parser.add_argument('--n_degree', required=False, type=int, default=4, help='in/out neighbor node number')
     parser.add_argument('--mean_reduction', type=bool, default=False, help='ablation: mean reduction: default max')
-    parser.add_argument('--pmi_graph', type=bool, default=False,  help='ablation: use predefined pmi graph')
+    parser.add_argument('--pmi_graph', type=bool, default=True,  help='ablation: use predefined pmi graph')
     parser.add_argument('--pretrained', type=bool, default=True, help='ablation: use pretrained GloVe')
     parser.add_argument('--edge_occur_threshold', type=int, default=2, help='ablation: public edge min. occurrence')
 

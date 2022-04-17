@@ -27,11 +27,9 @@ following projects.
 
 | Accuracy | R8     | R52    | Ohsumed |
 |----------|--------|--------|---------|
-| Train    | 99.45% | 96.27% | 95.99%  |
-| Valid    | 97.27% | 93.73% | 52.68%  |
-| Test     | 96.30% | 92.72% | 53.97%  |
+| Test     | 94.24% | 88.36% | 50.21%  |
 
-### Ablation: graph
+### Ablation: graph on R8
 
 ***default model***\
 Pretrained: Enabled\
@@ -40,11 +38,10 @@ Graph: trainable co-occurrence graph
 
 | R8    | default | no pretrained | mean reduction | pmi graph |
 |-------|---------|---------------|----------------|-----------|
-| Valid | 97.27%  | 97.27%        | 93.73%         | 52.68%    |
-| Test  | 97.27%  | 96.30%        | 92.72%         | 53.97%    |
+| Test  | 94.24%  | 94.24%        | 92.72%         | 53.97%    |
 
 ---
-### Ablation: n_degree
+### ~~Ablation: n_degree on R8~~
 
 ***default model***\
 n_degree: 4
@@ -55,7 +52,7 @@ n_degree: 4
 | Test  | 97.27%  |96.30%          | 92.72%         | 53.97%    |
 
 ---
-### Ablation : edge_occur_threshold
+### ~~Ablation : edge_occur_threshold on R8~~
 ***default model***\
 edge_occur_threshold: 2
 

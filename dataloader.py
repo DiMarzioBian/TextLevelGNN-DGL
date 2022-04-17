@@ -84,7 +84,7 @@ def get_dataloader(args):
     te_data, te_gt = mappings['te_data'], mappings['te_gt']
     embeds = torch.FloatTensor(mappings['embeds'])
     edges_mappings = mappings['edges_mappings']
-    edges_weights = torch.FloatTensor(mappings['edges_weights']) if mappings['edges_weights'] else None
+    edges_weights = torch.FloatTensor(mappings['edges_weights']) if args.pmi_graph else None
     co_occur_matrix = torch.LongTensor(mappings['co_occur_matrix'])
 
     # arguments updates
