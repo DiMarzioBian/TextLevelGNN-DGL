@@ -4,6 +4,10 @@ This is a PyToch + DGL implementation for the EMNLP'19 paper [Text Level Graph N
 
 You can find official implementation [here](https://github.com/mojave-pku/TextLevelGCN).
 
+## Warning !!!
+This project does not perform as good as paper, please check my another implementation
+[here](https://github.com/DiMarzioRock7/TextLevelGNN) on the same paper for close result to proposed.
+
 ---
 ## Dataset
 
